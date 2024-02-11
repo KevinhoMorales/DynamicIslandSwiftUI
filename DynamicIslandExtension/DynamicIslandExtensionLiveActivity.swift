@@ -90,22 +90,6 @@ struct DynamicIslandExtensionLiveActivity: Widget {
     }
 }
 
-//extension DynamicIslandExtensionAttributes {
-//    fileprivate static var preview: DynamicIslandExtensionAttributes {
-//        DynamicIslandExtensionAttributes(name: "World")
-//    }
-//}
-//
-//extension DynamicIslandExtensionAttributes.ContentState {
-//    fileprivate static var smiley: DynamicIslandExtensionAttributes.ContentState {
-//        DynamicIslandExtensionAttributes.ContentState(emoji: "😀")
-//     }
-//     
-//     fileprivate static var starEyes: DynamicIslandExtensionAttributes.ContentState {
-//         DynamicIslandExtensionAttributes.ContentState(emoji: "🤩")
-//     }
-//}
-
 #Preview("Notification", as: .content, using: DeliveryAttributes()) {
    DynamicIslandExtensionLiveActivity()
 } contentStates: {
